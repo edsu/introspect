@@ -77,7 +77,7 @@ def main():
     """
     home = os.path.expanduser("~")
     dbfile = home + "/Library/Application Support/Google/Chrome/Default/History"
-    dbfile = "History"
+    #dbfile = "History"
 
     categories = category_counts(dbfile)
     add_broader(categories)
